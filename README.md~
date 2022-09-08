@@ -1,1 +1,14 @@
-# chat
+# tecknologies 
+
+Spring Boot
+Spring data
+Postgres
+Liquibase
+Stompjs
+Javascript 
+Html
+
+# Deploy 
+Create database name chat
+
+Run ./gradlew bootrun
