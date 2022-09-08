@@ -9,6 +9,9 @@ Javascript
 Html
 
 # Deploy 
+
 Create database name chat
 
 Run ./gradlew bootrun
+
+Open http://localhost:8089/
