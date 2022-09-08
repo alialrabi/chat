@@ -1,0 +1,18 @@
+
+server:
+   port: 8089
+
+spring:
+   datasource:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/chat
+      username: postgres
+      password: postgres  
+
+   liquibase:
+     change-log: classpath:config/changelog/master.xml    
+
+   jpa:
+     hibernate:
+        ddl-auto: none
+        generate-ddl: true   
